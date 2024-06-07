@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+#logo {
+  width: 200px;
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: white;
+  /* position: fixed;
+  width: 100vw; */
+}
+
+#nav-links {
+  display: flex;
+  column-gap: 40px;
+}
+
+nav button {
+  background-color: white;
+  padding: 10px 20px;
+  height: fit-content;
+  border-color: rgb(175, 106, 2);
+  /* border: 1px solid blanchedalmond; */
+  border-width: 2px;
+  border-style: solid;
+}
